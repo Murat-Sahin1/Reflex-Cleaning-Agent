@@ -5,8 +5,8 @@ Problem = We have 2 rooms, these rooms could be cleaned or could be traveled, bu
 Also keep in mind that this reflex agent could only perceive its room and if it is clean or not. This means you can only use the information that the agent has. Nothing more.
 
 # Pseudo Code of the maintary action:
-#   function Reflex-Cleaning-Agent([location, state]) returns action
-#       if state = dirty return clean
-#       else if location = A then return Go-Right
-#       else if location = B then return Go-Left
+    function Reflex-Cleaning-Agent([location, state]) returns action
+       if state = dirty return clean
+       else if location = A then return Go-Right
+       else if location = B then return Go-Left
 
