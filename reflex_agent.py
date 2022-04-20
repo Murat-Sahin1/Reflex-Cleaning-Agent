@@ -76,11 +76,13 @@ class Reflex_Cleaning_Agent:
 class main:
     def __init__(self):
         # Let's do a test run on our reflex cleaning agent
+        # You can change the dirty or clean values, or initial location of the agent however you like.
         my_enviroment = [['room-A', 'dirty'], ['room-B', 'clean']]
         location = 'room-A'
         reflex_agent = Reflex_Cleaning_Agent(location, my_enviroment)
 
         # TEST RUNNING FOR REFLEX_AGENT
         reflex_agent.Run_Until_Everywhere_Is_Clean()
+
 
 main()
