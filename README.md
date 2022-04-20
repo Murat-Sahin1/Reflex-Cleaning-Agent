@@ -1,4 +1,4 @@
-# Reflex agents, could be called as the most primitive agent of all the agents in AI. Basically, Reflex agents don't take their past percepts into the account. They act immediate by the rules and jurisdictions of their maker, without thinking what will be the result of their acts.
+# Reflex agents, could be called as the most primitive agent of all the agents in AI. Basically, Reflex agents don't take their past percepts into the account. They act immediate by the rules and jurisdictions of their maker, without thinking what will be the result of their acts. 🧬
 #
 Problem = We have 2 rooms, these rooms could be cleaned or could be traveled, but we can only do one action at a time. Let's create a solution with the reflex-agent AI approach.
 #
